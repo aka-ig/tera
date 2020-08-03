@@ -1,0 +1,18 @@
+.component-tera-header {
+    .container-nav {
+        .nav-item {
+            cursor: pointer;
+            padding: 10px;
+            background-image: linear-gradient(to bottom, #e7ecf2, #d4dae6);
+            .nav-icon {}
+            .nav-label {
+                margin-left: 5px;
+                cursor: pointer;
+            }
+            &:hover {
+                background: #9099A2;
+                color: white;
+            }
+        }
+    }
+}

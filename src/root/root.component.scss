@@ -1,0 +1,62 @@
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-this {
+    flex-grow: 1;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    user-select: none;
+    &:focus {
+        outline: none;
+    }
+    &[disabled] {
+        cursor: not-allowed;
+        opacity: 0.65;
+    }
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    &:hover {
+        background-color: #204d74;
+    }
+    &[disabled] {
+        background-color: #337ab7;
+    }
+}
+
+.margin-top-10 { margin-top: 10px}
+.margin-top-20 { margin-top: 20px}
+
+.pull-left { float: left; }
+.pull-right { float: right; }
+  
+.component-tera-root {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}

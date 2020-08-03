@@ -1,0 +1,56 @@
+.component-tera-login-page {
+    background-color: #eee;
+    .container-login {
+        border: 1px solid lightgray;
+        border-radius: 6px;
+        margin: 160px auto 0;
+        padding: 10px 25px;
+        width: 350px;
+        height: 400px;
+        background-color: white;
+        box-sizing: border-box;
+        .group-logo {
+            margin-bottom: 20px;
+            img {
+                width: 250px;
+                margin: 20px auto 0;
+                display: block;
+            }
+        }
+        .form-group {
+            margin-bottom: 10px;
+            .form-label {
+                margin-bottom: 8px;
+            }
+            .form-control {
+                display: block;
+                padding: 6px 12px;
+                font-size: 14px;
+                line-height: 1.42857143;
+                color: #555;
+                background-color: #fff;
+                background-image: none;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+                &:focus {
+                    border-color: #66afe9;
+                    outline: 0;
+                    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+                }
+            }
+        }
+        .link-forgot-password {
+            font-size: 13px;
+            display: inline-block;
+            margin-right: 5px;
+            padding: 0 5px;
+            color: #337ab7;
+            cursor: pointer;
+            &:hover {
+                color: #23527c;
+                outline: none;
+            }
+        }
+    }
+}
